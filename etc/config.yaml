@@ -1,0 +1,33 @@
+system:
+  port: 8080
+  timeout: 5 # 请求超时时间
+captcha:
+  length: 6
+  expire: 300
+  width: 240
+  height: 80
+mysql:
+  host: '127.0.0.1'
+  port: '3306'
+  username: 'root'
+  password: ''
+  config: 'charset=utf8mb4&parseTime=True&loc=Local'
+  log: info
+  db-name: 'sf_server'
+redis:
+  host: '120.77.237.246'
+  port: '6379'
+  password: 'wjh20000905'
+  db: 0
+  base-key: "server-template"
+  expire-time: 5 # 5分钟
+zap:
+  level: info
+  prefix: 'gin:wire:template'
+  format: console
+  director: log
+  encode-level: LowercaseColorLevelEncoder
+  stacktrace-key: stacktrace
+  max-age: 0
+  show-line: true
+  log-in-console: true
