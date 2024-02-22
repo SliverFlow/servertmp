@@ -10,7 +10,7 @@ var ProviderSet = wire.NewSet(
 	NewApiGroup,
 	// 注入系统路由
 	system.NewSystemApi,
-	system.NewSysUserApi,
+	system.NewUserApi,
 
 	// 注入用户端路由
 	// xuye.NewXuyeApi,

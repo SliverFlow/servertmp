@@ -26,7 +26,7 @@ func wireApp(possess *config.Possess, log *zap.Logger) *server.HttpServer {
 	userRepo := data.NewUserRepo(log, possess, dataData)
 	systemUserUsecase := biz.NewSysUserUsecase(log, userRepo)
 	userService := system.NewUserService(log, systemUserUsecase)
-	userApi := system2.NewSysUserApi(userService)
+	userApi := system2.NewUserApi(userService)
 	apiGroup := system2.NewSystemApi(userApi)
 	group := api.NewApiGroup(apiGroup)
 	cors := middleware.NewCorsMiddleware(log)

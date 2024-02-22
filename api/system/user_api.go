@@ -9,7 +9,7 @@ type UserApi struct {
 	sysUserService *system.UserService
 }
 
-func NewSysUserApi(sysUserService *system.UserService) *UserApi {
+func NewUserApi(sysUserService *system.UserService) *UserApi {
 	return &UserApi{
 		sysUserService: sysUserService,
 	}

@@ -1,9 +1,0 @@
-[gin:wire:template] 2024/02/18 - 11:06:51.832	[34minfo[0m	E:/SliverFlow/server/internal/middleware/timeout.go:22	request into timeout middleware
-[gin:wire:template] 2024/02/18 - 11:06:52.356	[34minfo[0m	E:/SliverFlow/server/internal/core/server/http_server.go:32	[项目运行于]：http://127.0.0.1:8080
-[gin:wire:template] 2024/02/18 - 11:07:29.953	[34minfo[0m	E:/SliverFlow/server/internal/middleware/timeout.go:22	request into timeout middleware
-[gin:wire:template] 2024/02/18 - 11:07:30.486	[34minfo[0m	E:/SliverFlow/server/internal/core/server/http_server.go:32	[项目运行于]：http://127.0.0.1:8080
-[gin:wire:template] 2024/02/18 - 11:08:10.748	[34minfo[0m	E:/SliverFlow/server/internal/core/server/http_server.go:32	[项目运行于]：http://127.0.0.1:8080
-[gin:wire:template] 2024/02/18 - 11:08:36.917	[34minfo[0m	E:/SliverFlow/server/internal/middleware/cors.go:21	request	{"path": "/timeout", "method": "GET", "origin": ""}
-[gin:wire:template] 2024/02/18 - 11:08:42.039	[34minfo[0m	E:/SliverFlow/server/internal/middleware/cors.go:21	request	{"path": "/favicon.ico", "method": "GET", "origin": ""}
-[gin:wire:template] 2024/02/18 - 11:09:12.133	[34minfo[0m	E:/SliverFlow/server/internal/middleware/cors.go:21	request	{"path": "/timeout", "method": "GET", "origin": ""}
-[gin:wire:template] 2024/02/18 - 11:27:40.414	[34minfo[0m	E:/SliverFlow/server/internal/core/server/http_server.go:32	[项目运行于]：http://127.0.0.1:8080
